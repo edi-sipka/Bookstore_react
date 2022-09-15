@@ -53,7 +53,7 @@ $ npm start to run the local server
 
 ## Authors
 
-👤 **Edi Sipka**
+👤 _Edi Sipka_
 
 - GitHub: [@Edi-Sipka](https://github.com/edi-sipka)
 - Twitter: [@sipka_edii](https://twitter.com/sipka_edii)
