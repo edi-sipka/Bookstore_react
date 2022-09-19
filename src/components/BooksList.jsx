@@ -15,6 +15,11 @@ const BookList = () => {
       title: 'Disney books',
       author: 'Walt Disney',
     },
+    {
+      id: 3,
+      title: 'Robin Hood',
+      author: 'Jan Jax Ruso',
+    },
   ];
   return (
     <div>
