@@ -2,7 +2,12 @@
 
 const ADD_BOOK = 'ADD_BOOK';
 const REMOVE_BOOK = 'REMOVE_BOOK';
-const initialState = [];
+const initialState = [
+  {
+    author: 'Jacque Ruso',
+    title: 'Petar Pan',
+  },
+];
 
 export const addBook = (book) => ({
   type: ADD_BOOK,
@@ -13,7 +18,7 @@ export const removeBook = (id) => ({
   id,
 });
 
-export default reducer = (state = initialState, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.book];
