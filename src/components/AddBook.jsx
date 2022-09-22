@@ -6,22 +6,24 @@ import { addBook } from '../redux/books/books';
 
 const AddBook = () => {
   const dispatch = useDispatch();
-  const [inputState, setState] = useState({ title: '', author: '' });
+  const [inputState, setState] = useState({
+    title: '',
+    author: '',
+    category: '',
+  });
   const changeState = (e) => {
-    e.preventDefault();
     setState({ ...inputState, [e.target.name]: e.target.value });
   };
 
   const bookState = (e) => {
     e.preventDefault();
-    if (!inputState.title.trim() || !inputState.author.trim()) return;
+    // if (!inputState.title.trim() || !inputState.author.trim()) return;
     const book = {
-      id: uuidv4(),
-      title: inputState.title,
-      author: inputState.author,
+      item_id: uuidv4(),
+      ...inputState,
     };
     dispatch(addBook(book));
-    setState({ title: '', author: '' });
+    setState({ title: '', author: '', category: '' });
   };
   return (
     <div>
@@ -40,6 +42,16 @@ const AddBook = () => {
           onChange={changeState}
           name="author"
         />
+        <select
+          value={inputState.category}
+          onChange={changeState}
+          name="category"
+        >
+          <option>Select Category:</option>
+          <option>Fiction</option>
+          <option>Action</option>
+          <option>Crime</option>
+        </select>
         <button type="submit">Add book</button>
       </form>
     </div>
