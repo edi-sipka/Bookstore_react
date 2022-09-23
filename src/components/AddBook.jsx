@@ -60,6 +60,9 @@ const AddBook = () => {
         <button type="submit" className={style.btn}>
           ADD BOOK
         </button>
+
+        <button type="submit">Add book</button>
+
       </form>
     </div>
   );
