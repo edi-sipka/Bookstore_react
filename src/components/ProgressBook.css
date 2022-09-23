@@ -1,3 +1,4 @@
+/* stylelint-disable */
 .flex {
   display: flex;
   flex-direction: row;
@@ -5,14 +6,17 @@
   align-items: center;
   margin-left: 5rem;
 }
+
 div {
   margin-right: 2rem;
 }
+
 .completed {
   opacity: 0.5;
   font-size: 0.875rem;
   color: #121212;
 }
+
 .pie {
   border-radius: 50px;
   border: 8px solid transparent;
@@ -20,11 +24,11 @@ div {
     border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box,
     linear-gradient(rgb(115, 115, 115) 0 0);
-  -webkit-mask-composite: xor;
   mask-composite: exclude;
   width: 4.25rem;
   height: 4.25rem;
 }
+
 .random {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;

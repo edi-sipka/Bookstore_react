@@ -9,13 +9,16 @@
   border: solid 1px #e8e8e8;
   background-color: #fff;
 }
+
 .description {
   margin-left: 1rem;
 }
+
 .category {
   color: #7e7e80;
   display: flex;
 }
+
 .title {
   width: 12.313rem;
   height: 1.813rem;
@@ -30,6 +33,7 @@
   color: #121212;
   display: flex;
 }
+
 .author {
   width: 6.688rem;
   height: 1.188rem;
@@ -44,6 +48,7 @@
   color: #4386bf;
   display: flex;
 }
+
 .btn {
   width: 3.375rem;
   height: 1.188rem;
@@ -59,13 +64,18 @@
   border: none;
   background-color: #fff;
 }
+
 .btnAlign {
   display: flex;
-
   margin-top: 2rem;
 }
+
 .status {
   display: flex;
   margin-top: -8rem;
   justify-content: flex-end;
+}
+
+.end {
+  margin-right: 2rem;
 }

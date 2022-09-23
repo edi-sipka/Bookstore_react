@@ -1,3 +1,7 @@
+.display {
+  margin-right: 2rem;
+}
+
 .current {
   width: 7.875rem;
   height: 1.125rem;
@@ -12,6 +16,7 @@
   letter-spacing: normal;
   color: #121212;
 }
+
 .complete {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -19,7 +24,6 @@
 
 .btn {
   height: 2.813rem;
-
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
   border-radius: 3px;
   background-color: #0290ff;

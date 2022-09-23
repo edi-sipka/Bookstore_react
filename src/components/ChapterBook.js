@@ -6,7 +6,7 @@ const ChapterBook = () => {
   return (
     <div className="flex">
       <div className="chapter" />
-      <div>
+      <div className="display">
         <h3 className="current">Current Chapter</h3>
         <h2 className="complete"> Chapter {currentChapter}</h2>
         <button className="btn">UPDATE PROGRESS</button>
