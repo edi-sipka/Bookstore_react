@@ -2,15 +2,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Nav.module.css';
+import { BsPersonCircle } from 'react-icons/bs';
 
 const Navbar = [
-  { to: '/', text: 'Books' },
-  { to: '/categories', text: 'Categories' },
+  { to: '/', text: 'BOOKS' },
+  { to: '/categories', text: 'CATEGORIES' },
 ];
 
 const Nav = () => (
   <nav className={styles.navigation}>
-    <h1>Bookstore CMS</h1>
+    <h1 className={styles.headingText}>Bookstore CMS</h1>
     <ul className={styles.item}>
       {Navbar.map((link) => (
         <li key={link.to}>
@@ -20,6 +21,9 @@ const Nav = () => (
         </li>
       ))}
     </ul>
+    <div className={styles.user}>
+      <BsPersonCircle />
+    </div>
   </nav>
 );
 
