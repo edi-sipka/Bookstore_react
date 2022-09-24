@@ -34,6 +34,7 @@ const AddBook = () => {
           className={style.panel}
           type="text"
           placeholder="Title"
+          required="required"
           value={inputState.title}
           onChange={changeState}
           name="title"
@@ -45,6 +46,7 @@ const AddBook = () => {
           value={inputState.author}
           onChange={changeState}
           name="author"
+          required="required"
         />
         <select
           className={style.panel}
