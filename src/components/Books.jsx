@@ -15,6 +15,7 @@ const Books = (props) => {
   };
 
   return (
+
     <div className={styles.head}>
       <div className={styles.book}>
         <div className={styles.description}>
@@ -27,6 +28,7 @@ const Books = (props) => {
             Comment
           </button>
           <button type="button" onClick={removeBooks} className={styles.btn}>
+
             Remove
           </button>
           <button type="button" className={styles.btn}>

@@ -2,7 +2,9 @@
 import React, { useEffect } from 'react';
 import Books from './Books';
 import AddBook from './AddBook';
+
 import { useSelector, useDispatch } from 'react-redux';
+
 import { fetchBook } from '../redux/books/books';
 
 const BooksList = () => {
@@ -22,6 +24,7 @@ const BooksList = () => {
           category={book.category}
         />
       ))}
+
       <AddBook />
     </div>
   );
