@@ -10,7 +10,7 @@ BookStore is similar to "Awesome Book" website. This is an MVP version that allo
 
 - React Js
 - Jest testing
-- Following github flows standards.
+- Following GitHub flows standards.
 
 ## Getting Started
 
