@@ -51,7 +51,7 @@ $ npm start to run the local server
 
 - live demo: [coming soon]()
 
-## Authors
+## Author
 
 👤 _Edi Sipka_
 
